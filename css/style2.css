@@ -1,0 +1,61 @@
+body {
+	background-color: #eee;
+}
+
+.btn-gray {
+	background-color: #555;
+	color: #fff;
+}
+
+.btn-gray:hover {
+	background-color: #777;
+	color: #fff;
+}
+
+.col-sm-12 {
+	position: absolute;
+	z-index: 99999999;
+	left: 50%; top: 50%;
+	transform: translate(-50%, -50%);
+}
+.container-initial-2 {
+	width: 40%;
+    margin: 0 auto; 
+}
+#img-logo {
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+#box-login-2 {
+	margin: 0 auto;
+}
+#box-cadastro-2 {
+	margin: 0 auto;
+}
+
+#box-login-2 .mini-box { 
+	padding: 15px;
+	background: #fff;
+	box-shadow: 0 0 4px #999;
+	color: #555;
+}
+#box-cadastro-2 .mini-box {
+	margin: 0 auto;
+	padding: 15px;
+	background: #fff;
+	box-shadow: 0 0 4px #999;
+	color: #555;
+}
+
+@media screen and (max-width: 768px) {
+	.container-initial-2 {
+		width: 100%;
+		margin: 0 auto; 
+	}
+	.col-sm-12 {
+		margin-top: 5%;
+		left: 0; top: 0;
+		transform: translate(0, 0);
+	}
+}
